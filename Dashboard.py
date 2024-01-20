@@ -8,7 +8,7 @@ import plotly.express as px
 st.set_page_config(layout= 'wide')
 st.title('Análise de Reclamações')
 
-dados = pd.read_csv('https://raw.githubusercontent.com/Lilianeaa08/datasets_testes/main/dados.csv', usecols=lambda column: column not in ['Unnamed: 0'])
+dados = pd.read_csv('https://raw.githubusercontent.com/Lilianeaa08/DataApp/main/dados.csv', usecols=lambda column: column not in ['Unnamed: 0'])
 
 # Aplicar tratamento categórico
 condicoes = [
