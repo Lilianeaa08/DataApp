@@ -17,7 +17,7 @@ def mensagem_sucesso():
 
 st.title('Dados Brutos')
 
-dados = pd.read_csv('https://raw.githubusercontent.com/Lilianeaa08/datasets_testes/main/dados.csv', usecols= lambda column : column not in ['Unnamed: 0'])
+dados = pd.read_csv('https://raw.githubusercontent.com/Lilianeaa08/DataApp/main/dados.csv', usecols= lambda column : column not in ['Unnamed: 0'])
 
 dados['TEMPO'] = pd.to_datetime(dados['TEMPO'])
 
